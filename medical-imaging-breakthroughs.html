@@ -23,46 +23,49 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-  <main class="main-content">
+    <div class="main-content">
 
-    <!-- Blog Article -->
-    <article class="blog-article" data-page="blog-article">
+        <!-- Blog Article -->
+        <article class="blog" data-page="blog-article">
 
-      <!-- Article Header -->
-      <header class="article-header">
-        <h2 class="h2 article-title">Medical Imaging Breakthroughs</h2>
-        <div class="blog-meta">
-          <p class="blog-category">Medical Imaging Analysis</p>
-          <span class="dot"></span>
-          <time datetime="2022-02-23">Feb 23, 2022</time>
-        </div>
-      </header>
+            <!-- Blog Post Header -->
+            <header>
+                <h2 class="h2 article-title">Medical Imaging Breakthroughs</h2>
+                <div class="blog-meta">
+                    <p class="blog-category">Medical Imaging Analysis</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">Feb 23, 2022</time>
+                </div>
+            </header>
 
-      <!-- Article Image -->
-      <figure class="blog-banner">
-        <img src="./assets/images/blog-3.jpg" alt="Medical Imaging Breakthroughs">
-      </figure>
+            <!-- Blog Post Content -->
+            <section class="blog-posts">
+                <div class="blog-post-item">
+                    <figure class="blog-banner-box">
+                        <img src="./assets/images/blog-3.jpg" alt="Medical Imaging Breakthroughs" loading="lazy">
+                    </figure>
+                    <div class="blog-content">
+                        <p class="blog-text">
+                            <!-- Blog Content Goes Here -->
+                            Detailed content of the medical imaging breakthroughs...
+                        </p>
+                    </div>
+                </div>
+            </section>
 
-      <!-- Article Content -->
-      <section class="blog-content">
-        <!-- Content goes here -->
-        <p>Introductory paragraph...</p>
-        <h3>Heading 1</h3>
-        <p>Details...</p>
-        <!-- Add more sections as needed -->
-      </section>
+            <!-- Back to Main Blog Page -->
+            <footer>
+                <a href="index.html">Back to Blog List</a>
+            </footer>
 
-      <!-- Back to Blog List -->
-      <footer class="article-footer">
-        <a href="index.html#blog">Back to Blog</a>
-      </footer>
+        </article>
 
-    </article>
+    </div>
 
-  </main>
+    <script src="./assets/js/script.js"></script> <!-- Link to your JavaScript file -->
 
-  <script src="./assets/js/script.js"></script>
 </body>
 </html>
