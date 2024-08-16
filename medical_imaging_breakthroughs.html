@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
 
     <!--
-      - google font link
+      - Google font link
     -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,94 +27,59 @@
     <main>
         <section class="blog-post">
             <div class="container">
-                <h1 class="blog-post-title">Sleep Stage Classification using Deep Learning Techniques: A Review</h1>
+                <h1 class="blog-post-title">Harnessing Deep Learning for Sleep Stage Classification: Innovations and Challenges</h1>
                 <p class="blog-post-date">Posted on: August 15, 2024</p>
 
                 <div class="blog-post-content">
-                    <p>Sleep is an essential time for physical and mental health recovery, and people spend more than one-third 
-                        of their lives sleeping. Sleep quality plays a crucial role in learning, fatigue recovery, and daily life.
-                        Furthermore, insufficient sleep can decrease concentration during the day, contribute to daytime sleepiness, 
-                        and increase the risk of cardiovascular disease and obesity. Furthermore, prolonged sleep deprivation causes 
-                        insomnia, which interferes with work, family, and healthy life. The paradigm of global healthcare is 
-                        changing from diagnosis and treatment to prevention, prediction, and personalization. Sleep must be monitored 
-                        accurately to prevent sleep disorders and provide customized solutions.
-                    </p>
 
-                    <p>Polysomnography (PSG) is a systematic process for assessing sleep. PSG measures the following biosignals 
-                        during the night: electroencephalogram (EEG), electrooculogram (EOG), electrocardiogram (ECG), 
-                        electromyogram (EMG), respiration, SpO2, and other signals. The sleep stages are classified based on these 
-                        signals. They are divided into five distinct stages based on the American Academy of Sleep Medicine (AASM): 
-                        wake, non-rapid eye movement (NREM stages 1-3), and rapid eye movement (REM). The sleep stages are scored in
-                        30-second units based on the characteristics of the biosignals. Sleep scoring is a time-consuming and 
-                        labor-intensive process. To solve these limitations, an automatic sleep scoring studies have been published.
-                        Automatic sleep classification research is divided into studies that classify sleep stages into three, four,
-                        or five stages. When the sleep stages are divided into three, they are classified as wake, NREM, and REM. 
-                        In the case of four stages, they are classified as wake, light sleep (NREM1+NREM2), deep sleep (NREM3), 
-                        and REM sleep. With five stages, the stages are classified as wake, NREM1-3, and REM sleep. The 
-                        classification of sleep stages three, four, or five in the papers to be reviewed later means the above 
-                        division.
+                    <p>
+                        Sleep is a vital aspect of overall health, contributing to both physical recovery and mental well-being. On average, individuals spend about a third of their lives asleep, underscoring the importance of sleep quality. Poor sleep can lead to various health issues, including reduced concentration, daytime fatigue, cardiovascular problems, and obesity. As a result, monitoring sleep effectively is crucial in preventing sleep disorders and tailoring personalized healthcare solutions.
                     </p>
 
                     <p>
-                        Polysomnography (PSG) is then the continous monitoring of <b>brain activity</b> using electroencephalography 
-                        (EEG), <b>eye movements</b> using electrooculography (EOG), <b>heart rhythm</b> using electrocardiography (ECG), 
-                        <b>muscle activity</b> using electromyography (EMG), respiration, SpO2, and other signals.
+                        The most comprehensive method for evaluating sleep is through polysomnography (PSG), which involves recording multiple physiological signals, such as brain activity (EEG), eye movements (EOG), heart rate (ECG), muscle activity (EMG), and respiratory patterns. These signals are analyzed to classify sleep into various stages. The American Academy of Sleep Medicine (AASM) defines five key stages of sleep: wakefulness, non-rapid eye movement (NREM) stages 1-3, and rapid eye movement (REM) sleep. Traditionally, sleep scoring is done manually, a labor-intensive and time-consuming process.
                     </p>
 
                     <p>
-                        <b>Technical Investigation performed by Experts:</b> <br> One of the fundamental technical investigations
-                        at the basis of clinical decision-making in sleep medicine diagnostics and treatment efficacy evaluation
-                        is the sleep stage classification.
+                        To address the challenges of manual sleep scoring, researchers have turned to automated sleep stage classification methods. These methods leverage deep learning algorithms to analyze and classify sleep stages with high accuracy. Typically, sleep stages are classified into three, four, or five categories, with each approach offering varying levels of detail. For instance, the three-stage model includes wakefulness, NREM, and REM, while the more detailed five-stage model separates NREM into three distinct phases.
                     </p>
 
                     <p>
-                        <b>What is sleep stage classification?</b> <br> 
-                        <ul>
-                            <li>Sleep stage classification also known as sleep scoring or sleep staging
-                             is the classification of 30-seconds periods of PSG (called "epochs") in different
-                             sleep stages
-                            </li>
-                            <li>This task of sleep stage classification is done visually by a sleep expert-who
-                                mostly rely on guidelines (e.g., proposed by the American Academy of Sleep Medicine
-                                (AASM) for determination of sleep stages.
-                            </li>
-                            <li>Each Epoch is classified into one of the following five sleep stages:
-                                <ol>
-                                    <li>
-                                        Wakefulness (W)
-                                    </li>
-                                    <li>
-                                        Non Rapid Eye Movements - stage 1 (NREM1)
-                                    </li>
-                                    <li>
-                                        Non Rapid Eye Movements - stage 2 (NREM2)
-                                    </li>
-                                    <li>
-                                        Non Rapid Eye Movements - stage 3 (NREM3)
-                                    </li>
-                                    <li>
-                                        Rapid Eye Movements (REM)
-                                    </li>
-                                </ol>
-                            </li>
-                        </ul>
+                        <b>Understanding Sleep Stage Classification:</b><br>
+                        Sleep stage classification, also known as sleep staging, involves categorizing 30-second epochs of PSG data into different sleep stages. This task is traditionally performed by experts who rely on established guidelines, such as those provided by AASM, to accurately determine sleep stages. Each epoch is classified into one of the following stages:
+                    </p>
+
+                    <ul>
+                        <li>Wakefulness (W)</li>
+                        <li>NREM Stage 1 (NREM1)</li>
+                        <li>NREM Stage 2 (NREM2)</li>
+                        <li>NREM Stage 3 (NREM3)</li>
+                        <li>Rapid Eye Movement (REM)</li>
+                    </ul>
+
+                    <p>
+                        <b>Challenges in Traditional Methods:</b><br>
+                        Manually annotating sleep data is a meticulous process that can take hours, even for skilled physicians. This process is also subject to inter-scorer and intra-scorer variability, leading to inconsistencies in sleep stage classification. The need for a more efficient and consistent method has driven the development of automated approaches.
                     </p>
 
                     <p>
-                        <b>Challenges of the Methods</b> <br>
-                        <ul>
-                            <li>
-                                The manual annotation of the recorded data is a complex and time-intensive process
-                                which takes a well-trained physician up to two hours to score one whole hynogram of 
-                                about 8 hours of sleep.
-                            </li>
-                            <li>
-                                Sleep stage classification is prone to subjective bias, resulting in lower then desired inter-scorer
-                                and intra-scorer agreement.
-                            </li>
-                        </ul>
+                        <b>Deep Learning in Sleep Research:</b><br>
+                        Deep learning has revolutionized various fields, and sleep research is no exception. Convolutional Neural Networks (CNNs), for instance, have been extensively used due to their ability to learn features directly from raw data, making them ideal for tasks like image and signal classification. In sleep research, CNNs are utilized to analyze one-dimensional (1D) and two-dimensional (2D) signals, automatically extracting relevant features for sleep stage classification.
                     </p>
-                    
+
+                    <p>
+                        Another powerful deep learning architecture is the Recurrent Neural Network (RNN), which excels in handling sequential data. RNNs are particularly useful in tasks that require understanding of temporal dependencies, such as time-series analysis. However, traditional RNNs can struggle with long sequences due to the vanishing gradient problem, where the model's ability to learn diminishes over time.
+                    </p>
+
+                    <p>
+                        To overcome this limitation, Long Short-Term Memory (LSTM) networks were developed. LSTMs are a specialized type of RNN designed to retain information over longer sequences, making them highly effective for sleep stage classification. LSTMs are particularly adept at considering the context of previous epochs when determining the sleep stage of the current epoch, aligning well with the nature of sleep staging.
+                    </p>
+
+                    <p>
+                        <b>Looking Ahead:</b><br>
+                        The integration of deep learning into sleep stage classification holds great promise for the future of sleep medicine. By automating the classification process, these technologies can reduce the burden on healthcare professionals and provide more consistent and accurate sleep assessments. As research in this area continues to evolve, we can expect further innovations that will enhance our understanding of sleep and its impact on health.
+                    </p>
+
                     <!-- Add more content as needed -->
                 </div>
             </div>
