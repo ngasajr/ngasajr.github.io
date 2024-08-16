@@ -41,6 +41,61 @@
                     </p>
 
                     <p>
+                       <b>The Role of EEG Biosignals in Sleep Stage Classification</b> <br>
+                        Electroencephalogram (EEG) biosignals are crucial for accurately classifying sleep stages, as outlined in 
+                        the AASM guidelines. The spectral features of these signals are pivotal in identifying different stages of 
+                        sleep. Each stage has distinct EEG characteristics: during the wake stage, the EEG shows an alpha rhythm in 
+                        the 8-13 Hz range. As one transitions into NREM1, low-amplitude, mixed-frequency (LAMF) activity in the 
+                        4-7 Hz range becomes prominent. NREM2 is marked by the presence of K complexes and sleep spindles, which are 
+                        identifiable sinusoidal waves. During NREM3, slow-wave activity in the 0.5-2 Hz range is observed, while the 
+                        REM stage is characterized by LAMF activity. Given these unique EEG patterns, many studies have focused 
+                        solely on EEG signals for classifying sleep stages.
+                    </p>
+
+                    <p>
+                        <b>ECG Data and Its Impact on Sleep Stage Classification</b> <br>
+                        Analyzing electrocardiogram (ECG) data during sleep reveals important insights into sleep stage regulation. 
+                        The autonomic nervous system (ANS) plays a significant role in sleep architecture, with sympathetic activity 
+                        peaking during wakefulness and REM sleep, while parasympathetic activity increases throughout the NREM 
+                        stages. The ANS's influence on cardiovascular regulation can be leveraged in models for sleep stage 
+                        classification. However, studies focusing on ECG signals often report lower accuracy in comparison to those 
+                        using EEG data, particularly in distinguishing between NREM1 and NREM2 stages. This discrepancy is due to 
+                        the subtle nature of the events and frequency characteristics in the EEG signals, which are not easily 
+                        detected by ECG alone. Additionally, heart rate variability (HRV) can be affected by movements and external 
+                        noise, further complicating the classification process. Improving classification accuracy may require 
+                        minimizing such noise and extracting features that more accurately reflect changes in the ANS.
+                    </p>
+
+                    <p>
+                        <b>Exploring Multi-Biosignal Approaches to Sleep Stage Classification</b> <br>
+                        The complexity of polysomnography (PSG) lies in the necessity of attaching multiple sensors to capture various
+                        biosignals, which has led to most studies focusing on sleep stage classification using a single biosignal. 
+                        However, recent research has explored the combination of different biosignals to enhance classification 
+                        accuracy. Using multi-biosignal approaches allows for a more comprehensive analysis, potentially improving 
+                        the precision of sleep stage identification.
+                    </p>
+
+                    <p>
+                        <b>Advances in Unconstrained Biosignal Measurements for Sleep Monitoring</b> <br>
+                        For long-term sleep monitoring in a home setting, it’s important to use unconstrained methods that don’t 
+                        require direct contact with the body. Among the most promising non-contact methods is radar technology, which 
+                        operates by sending signals from a transmitter to the human body and then receiving the reflected signals. 
+                        This technique effectively measures vital signs like breathing and heart rates without needing sensors 
+                        attached to the body. Various studies have leveraged radar-based techniques for sleep stage classification, 
+                        exploring both conventional machine learning methods and more recent deep learning approaches.
+                    </p>
+
+                    <p>
+                        <b>Types of Radar Technology in Sleep Stage Classification</b> <br>
+                        Radar technologies used in sleep monitoring include continuous wave (CW), frequency-modulated continuous 
+                        wave (FMCW), and impulse-radio ultra-wideband (IR-UWB). CW radar is noted for its simplicity and the ability 
+                        to detect heart rate, respiration rate, and body movement with minimal spectral spread. FMCW radar is defined 
+                        by its linear frequency modulation over time, while impulse-based radar sends out pulses that are reflected 
+                        back and processed in the time domain to detect vital signs. The IR-UWB radar system is a typical example of 
+                        an impulse-based radar, often used in these applications.
+                    </p>
+
+                    <p>
                         To address the challenges of manual sleep scoring, researchers have turned to automated sleep stage classification methods. These methods leverage deep learning algorithms to analyze and classify sleep stages with high accuracy. Typically, sleep stages are classified into three, four, or five categories, with each approach offering varying levels of detail. For instance, the three-stage model includes wakefulness, NREM, and REM, while the more detailed five-stage model separates NREM into three distinct phases.
                     </p>
 
