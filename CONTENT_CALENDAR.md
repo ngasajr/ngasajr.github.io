@@ -1,6 +1,6 @@
 # Content Calendar (Next 12 Weeks)
 
-Use this 12-week schedule as a repeatable quarterly cadence. Each week has a single, manageable deliverable that keeps your portfolio and blog active without overloading you.
+12-week schedule as a repeatable quarterly cadence. Each week has a single, manageable deliverable that keeps portfolio and blog active without overloading.
 
 ## Cadence
 - **Blog**: 1 post every 2–3 weeks (alternating short and medium-length posts).
@@ -34,7 +34,8 @@ Use this 12-week schedule as a repeatable quarterly cadence. Each week has a sin
 
 ## Quarterly Review Checklist
 - [ ] Remove outdated links
-- [ ] Update your current role and skills
+- [ ] Update current role and skills
 - [ ] Add 1–2 new portfolio items or results
 - [ ] Refresh blog list with new posts
-- [ ] Re-share your most valuable post
+
+- [ ] Re-share most valuable post
