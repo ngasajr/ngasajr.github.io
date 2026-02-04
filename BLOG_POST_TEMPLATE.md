@@ -1,6 +1,6 @@
 # Blog Post Template
 
-> Copy this template for each new post. Keep sections that fit; remove what you don’t need.
+> Template for each new post. Keep sections that fit; remove what you don’t need.
 
 ## Title
 **Working title:**
@@ -51,4 +51,5 @@
   - LinkedIn post (yes/no)
   - Twitter/X thread (yes/no)
   - Email or newsletter (yes/no)
+
 CONTENT_CALENDAR.md
